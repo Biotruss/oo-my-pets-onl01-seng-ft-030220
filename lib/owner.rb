@@ -29,7 +29,7 @@ class Owner
   end
   
   def dogs 
-    Dog.all.select{|dog| dog.owner == self}
+    Dog.all.select {|dog| dog.owner == self}
   end
   
   def buy_cat(name)
@@ -41,7 +41,7 @@ class Owner
   end
   
   def walk_dogs
-    self.dogs.each{|dog| dog.mood = "happy"}
+    self.dogs.each {|dog| dog.mood = "happy"}
   end
  
 end
