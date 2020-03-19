@@ -41,7 +41,7 @@ class Owner
   end
   
   def walk_dogs
-    dogs.mood.each{|dog| dog.mood
+    dogs.mood.each {|dog| dog.mood = "happy"}
   end
  
 end
